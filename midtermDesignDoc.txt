@@ -1,0 +1,47 @@
+** Midterm Project Design Document **
+
+Project by Catherine Finnegan
+
+1. Purpose: 
+
+The purpose of this program is to illustrate camera movements as well 
+as diffused lighting and 3D object animation.
+
+2. Elements: 
+
+There are 5 objects in this scene, excluding the floor;
+2 cubes
+1 cone
+1 torus
+1 sphere
+
+The sphere is attached to the torus such that the sphere's orbit is dependent
+on the rotation of the torus. The cone and cubes rotate on different axis at 
+different speeds. 
+
+3. Actions
+
+There are 8 possible actions by the user using the keyboard that can alter/manipulate
+the camera view; 
+
+W - Dolly Forward
+S - Dolly Backward
+A - Strafe Left
+D - Strafe Right
+I - Pedestal Up
+K - Pedestal Down
+J - Pan Left
+L - Pan Right
+
+4. Overview
+
+In programming this project I first created the objects I wanted to include using the 
+functions simpleObjectLibrary.js program, after which I created the shader programs for 
+the objects. Following this I worked on the camera movements, using the material from 
+class to program all the functions (such as pan right or pedestal up). The last step was 
+the animation of each object. 
+
+5. References
+
+COSC 475 lecture materials
+simpleObjectLibrary.js

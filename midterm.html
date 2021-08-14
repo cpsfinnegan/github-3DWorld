@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robot</title>
+
+    <style>
+    #canvas{
+        width: 640px
+        height: 500px
+        transition: background 100ms;
+      }
+      label{
+        color: #000
+      }
+      input{
+        position: relative;
+        display: block;
+      }
+      
+   </style>
+</head>
+<body onload="mainWebGL()">
+  <h1>3D World with Moving Camera</h1>
+  <h2>Catherine Finnegan</h2>
+  <canvas id=draw_surface width="800" height="600" style="border: 1px;">WebGL2 not supported!</canvas>
+
+  <script src="gl-matrix.js"></script>
+  <script src="simpleObjectLibrary.js"></script>
+  <script src="midterm.js"></script>
+</body>
+</html>
